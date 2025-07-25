@@ -13,6 +13,8 @@
 		1E84F9DD2E33D8A00060C454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E84F9DB2E33D8A00060C454 /* Main.storyboard */; };
 		1E84F9DF2E33D8AA0060C454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E84F9DE2E33D8AA0060C454 /* Assets.xcassets */; };
 		1E84F9E22E33D8AA0060C454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E84F9E02E33D8AA0060C454 /* LaunchScreen.storyboard */; };
+		1EF40ABF2E33DAD4001DDDDB /* UserSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF40ABE2E33DAD4001DDDDB /* UserSearchViewModel.swift */; };
+		1EF40AC12E33DB49001DDDDB /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF40AC02E33DB49001DDDDB /* CityModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1E84F9DE2E33D8AA0060C454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E84F9E12E33D8AA0060C454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E84F9E32E33D8AA0060C454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF40ABE2E33DAD4001DDDDB /* UserSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchViewModel.swift; sourceTree = "<group>"; };
+		1EF40AC02E33DB49001DDDDB /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1E84F9DE2E33D8AA0060C454 /* Assets.xcassets */,
 				1E84F9E02E33D8AA0060C454 /* LaunchScreen.storyboard */,
 				1E84F9E32E33D8AA0060C454 /* Info.plist */,
+				1EF40ABE2E33DAD4001DDDDB /* UserSearchViewModel.swift */,
+				1EF40AC02E33DB49001DDDDB /* CityModel.swift */,
 			);
 			path = SearchBarWorkItem;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF40AC12E33DB49001DDDDB /* CityModel.swift in Sources */,
 				1E84F9DA2E33D8A00060C454 /* ViewController.swift in Sources */,
+				1EF40ABF2E33DAD4001DDDDB /* UserSearchViewModel.swift in Sources */,
 				1E84F9D62E33D8A00060C454 /* AppDelegate.swift in Sources */,
 				1E84F9D82E33D8A00060C454 /* SceneDelegate.swift in Sources */,
 			);
